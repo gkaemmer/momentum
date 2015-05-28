@@ -6,11 +6,11 @@ require 'momentum/version'
 Gem::Specification.new do |spec|
   spec.name          = "momentum"
   spec.version       = Momentum::VERSION
-  spec.authors       = ["Joey Aghion"]
-  spec.email         = ["joey@aghion.com"]
+  spec.authors       = ["Joey Aghion", "Graham Kaemmer"]
+  spec.email         = ["joey@aghion.com", "graham@patientbank.us"]
   spec.description   = %q{Utilities for working with OpsWorks apps in the style of Artsy Engineering.}
   spec.summary       = %q{Utilities for working with OpsWorks apps in the style of Artsy Engineering.}
-  spec.homepage      = "https://github.com/artsy/momentum"
+  spec.homepage      = "https://github.com/patientbank/momentum"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

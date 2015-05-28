@@ -1,6 +1,6 @@
 # Momentum
 
-Shared utilities for managing and deploying OpsWorks apps at Artsy.
+Shared utilities for managing and deploying OpsWorks apps at PatientBank. Credit to [Artsy](http://github.com/artsy/momentum).
 
 
 ## Installation
@@ -113,9 +113,9 @@ Execute a Chec recipe on the given layer in the given stack. By default, will ex
 ## To Do
 
 * git/branch helpers
-* Integrate librarian-chef as legit dependency once rails/chef conflicts resolved
+* Integrate berkshelf as a dependency and use `berks install` to install cookbooks before upload.
 * Tests
 
 
-&copy; 2014 [Artsy](http://artsy.net). See [LICENSE](LICENSE.txt) for details.
+&copy; 2014 [Artsy](http://artsy.net), [PatientBank](http://patientbank.net). See [LICENSE](LICENSE.txt) for details.
 

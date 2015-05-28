@@ -6,7 +6,7 @@ module Momentum
   DEFAULT_CONFIG = {
     # app_base_name: ...,  # required
     cookbooks_install_path: 'tmp/cookbooks',
-    custom_cookbooks_bucket: 'artsy-cookbooks',
+    custom_cookbooks_bucket: 'patientbank-cookbooks',
     rails_console_layer: 'rails-app',
     app_layers: ['rails-app'],
     logs_root: '/var/log/apache2/'
